@@ -7,8 +7,8 @@ from config import settings
 
 
 
-MODEL_DIR = f"{settings.models_path}/cefr_xlm_roberta_v1"
-TEST_FILE = f"{settings.split_path}/test.csv"
+MODEL_DIR = f"{settings.models_base_path}/cefr_xlm_roberta_v1"
+TEST_FILE = f"{settings.split_base_path}/test.csv"
 MAX_LENGTH = 128
 BATCH_SIZE = 16
 
